@@ -50,6 +50,7 @@ body{
     color: black;
 }
 .navigation_button{
+    cursor: pointer;
     display: inline-block;
     width: 70px;
     height: 70px;
@@ -68,4 +69,34 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.text_header{
+    margin: 0;
+    padding: 0;
+    padding-top: 190px;
+    font-weight: 800;
+    font-size: 33px;
+    line-height: 39px;
+}
+.text_header_discount{
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 20px;
+}
+.container_button_header{
+    display: block;
+    margin: 0;
+    padding: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    background: #E62626;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
 }
